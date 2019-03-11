@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказать</title>
+    <link rel="icon" href="images/head_img.ico" type="image/x-icon" >
+</head>
+<body>
+<ul>
+    <li> <a href="page1.html"> Обратно в меню </a> </li>
+</ul>
+<form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend align="center">ЗАКАЗ ТОРТА</legend>
+        <p>
+            <label for="text"> Имя* </label> <br/>
+            <input type="text" id="text" required>
+        </p>
+        <p>
+            <label for="text2"> Фамилия* </label> <br/>
+            <input type="text" id="text2" required >
+        </p>
+        <p>
+            <label for="text3"> Отчество* </label> <br/>
+            <input type="text" id="text3" required>
+        </p>
+        <p>
+            <label for="text4"> Email* </label> <br/>
+            <input type="email" id="text4" required placeholder="ivanov@mail.ru">
+        </p>
+        <p>
+            <label for="text5"> Дата и Время Заказа* </label> <br/>
+            <input type="datetime-local" id="text5" required>
+        </p>
+        <p>
+            <label for="text6"> Способ и адрес доставки </label> <br/>
+            <textarea id="text6" cols="40" rows="10" wrap="soft" placeholder="Впишите самовывоз или заполните ваш адрес для курьерской доставки"></textarea>
+        </p>
+        <p>
+            <label for="text"> Желаемое время доставки или самовывоза* </label> <br/>
+            <input type="time" id="text" min="09:00" max="21:00">
+        </p>
+        <p>
+            <label for="text7"> Расчетное количество человек или вес торта* </label> <br/>
+            <input type="text" id="text7" >
+        </p>
+        <p>
+            <label for="text8"> Пожелания по вкусу торта* </label> <br/>
+            <textarea id="text8" cols="40" rows="10" wrap="soft" placeholder="Сливочный, ягодный, фруктовый вкусы ..."></textarea>
+        </p>
+        <p>
+            <label for="text9"> Цвет подложки торта </label> <br/>
+            <input type="color" id="text9">
+        </p>
+        <p>
+            <label for="text10"> Пожелания по оформлению торта* </label> <br/>
+            <textarea id="text10" cols="40" rows="10" wrap="soft" placeholder="габариты и форма торта"> </textarea>
+        </p>
+        <p>
+            <label for="text11"> Примеры оформления </label> <br/>
+            <input type="file" accept="image/*" id="text11" value="Фото" alt="Альтернативный текст"> <br/><br/>
+            <input type="file" accept="image/*" id="text11" value="Фото" alt="Альтернативный текст"> <br/><br/>
+            <input type="file" accept="image/*" id="text11" value="Фото" alt="Альтернативный текст">
+        </p>
+        <p>
+            <input type="submit" value="Отправить данные" >
+        </p>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend align="center">ЗАКАЗ КАПКЕЙКОВ</legend>
+    <p><b><i>Основа*</i></b>
+        <label><br/>Ванильный бисквит<input name="bisquit" type="checkbox" checked required> </label>
+        <label><br/>Шоколадный бисквит<input name="bisquit" type="checkbox" required></label>
+        <label><br/>Миндальный бисквит<input name="bisquit" type="checkbox" required></label>
+    </p>
+        <p><b><i>Начинка*</i></b>
+           <label><br/>Клубничное желе<input name="inside" type="radio"checked required></label>
+           <label><br/>Лаймовое кулле<input name="inside" type="radio" required></label>
+           <label><br/>Шоколадный крем<input name="inside" type="radio" required></label>
+       </p>
+
+        <p>Количество капкейков в коробке*
+            <select required>
+            <optgroup label="Ванильные">
+                <option>6 шт</option>
+                <option>9 шт</option>
+                <option>12 шт</option>
+            </optgroup>
+                <optgroup label="Шоколадные">
+                    <option>6 шт</option>
+                    <option>9 шт</option>
+                    <option>12 шт</option>
+                </optgroup>
+                <optgroup label="Миндальные">
+                    <option>6 шт</option>
+                    <option>9 шт</option>
+                    <option>12 шт</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="reset">
+        </p>
+    </fieldset>
+
+    <p>* - Обязательные к заполнению данные </p>
+
+</form>
+</body>
+</html>
