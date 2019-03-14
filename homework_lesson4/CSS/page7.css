@@ -1,0 +1,114 @@
+div .reg_and_auto li {
+    list-style-type: none;
+    background-color: lightskyblue;
+    position: relative;
+    top: -8px;
+}
+
+#reg {
+    height: 20px;
+    width: 200px;
+    border: 2px solid silver;
+    border-bottom: none;
+    margin: -16px 0px 0px 1586px;
+    padding: 5px 14px 8px 1px;
+    text-align:center;
+}
+#auto {
+    height: 20px;
+    width: 200px;
+    border: 2px solid silver;
+    border-top:none;
+    margin: 0px 0px 0px 1586px;
+    padding: 5px 14px 8px 1px;
+    text-align:center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    background: burlywood;
+    text-decoration: none;
+    position: relative;
+    top: -124px;
+    left: -40px;
+}
+
+
+.menu {
+    text-decoration: none;
+}
+
+li#menu1 {
+        height: 40px;
+        width: 200px;
+        margin: 30px -4px 20px -6px;
+        padding: 25px 5px 5px 30px;
+}
+
+li#menu2 {
+    height: 40px;
+    width: 200px;
+    margin: 30px -4px 20px 0px;
+    padding: 25px 5px 5px 30px;
+}
+
+li#menu3 {
+    height: 40px;
+    width: 200px;
+    margin: 30px -4px 20px 0px;
+    padding: 25px 5px 5px 30px;
+}
+
+li#menu4 {
+    height: 40px;
+    width: 200px;
+    margin: 30px -4px 20px 0px;
+    padding: 25px 5px 5px 30px;
+}
+
+li#menu5 {
+    height: 40px;
+    width: 200px;
+    margin: 30px -4px 20px 0px;
+    padding: 25px 5px 5px 30px;
+}
+
+li#menu6 {
+    height: 40px;
+    width: 422px;
+    margin: 30px -4px 20px 0px;
+    padding: 25px 5px 5px 30px;
+}
+
+
+body {
+    background-image: url("http://img.desktopwallpapers.ru/food/pics/wide/1680x1050/8ee3656836c0e30b39de1322445021c9.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 25% ;
+    background-attachment: fixed;
+    background-size: 1853px 1024px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

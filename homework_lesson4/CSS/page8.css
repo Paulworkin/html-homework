@@ -1,0 +1,15 @@
+.author {
+    color: brown;
+    text-decoration: none;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    background: red;
+    height: 25px;
+    width: 120px;
+    margin: 10px 20px 20px 20px;
+    position: relative;
+    left: 40px;
+
+}
