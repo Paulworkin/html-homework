@@ -1,0 +1,41 @@
+@import url(grid/grid.css);
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.card_1 {
+    border: 2px solid green;
+    height: 200px;
+    margin: 2px;
+}
+
+.card_2 {
+    border: 2px solid green;
+    height: 616px;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
