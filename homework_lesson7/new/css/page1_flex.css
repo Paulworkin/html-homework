@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 0.1px solid silver;
+}
+
+.menu1 {
+    display: flex;
+    flex: 100%;
+    height: 60px;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    align-items: center;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.dropdown1 {
+    border: 0.1px solid silver;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 400px;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dropdown2 {
+    border: 0.01px solid silver;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    right: 115px;
+    background-image: url(../image/background/background_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.menu1 li:hover .dropdown1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.menu1 li:hover .dropdown2 {
+    display: block;
+    margin-top: 20px;
+}
+
+li>a:hover {
+    background: gray;
+}
+
+li.padding {
+    border: 0.1px solid silver;
+    padding: 7px 20px;
+}
+li.padding_for_dropdown {
+    padding: 22px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logotype {
+    display: flex;
+    flex: 1;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+h1 {
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex: 100%;
+    /*height: 500px;   не нужна*/
+
+}
+
+.menu2 {
+    display: flex;
+    flex: 100%;
+    /*height: 200px; не нужна*/
+    justify-content: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+a.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.menu2 img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+}
+
+a.vkontakte, a.instagram {
+    display: flex;
+    padding: 5px;
+}
